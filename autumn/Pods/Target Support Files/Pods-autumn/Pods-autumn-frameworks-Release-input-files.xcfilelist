@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-autumn/Pods-autumn-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Amplitude/Amplitude.framework
+${BUILT_PRODUCTS_DIR}/AnalyticsConnector/AnalyticsConnector.framework
