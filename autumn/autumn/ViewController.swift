@@ -8,22 +8,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     
-    @IBAction func click_MoveBtn(_ sender: Any) {
-        
+    @IBAction func moveBtn_click(_ sender: Any) {
+        print("btn 작동")
         // storyboard find contrller : DetailController
         if let controller = self.storyboard?.instantiateViewController(withIdentifier: "DetailController") {
-        
-            // push controller to navi
             
+            // push controller to navi
             self.navigationController?.pushViewController(controller, animated: true)
+            
         }
         
-        
-        
-        
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

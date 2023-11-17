@@ -21,7 +21,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="MOVE"/>
                                 <connections>
-                                    <action selector="click_MoveBtn:" destination="gL9-qQ-P9r" eventType="touchUpInside" id="8YA-MO-T1a"/>
+                                    <action selector="moveBtn_click:" destination="gL9-qQ-P9r" eventType="touchUpInside" id="JHM-zP-rfC"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Autumn world" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kjg-Gk-1Ks">
@@ -47,9 +47,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aW3-OA-n9r"/>
-                    <connections>
-                        <outlet property="Click_MoveBtn" destination="SJZ-4o-iBN" id="6Yn-1p-yVk"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VMy-Dl-VwA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -62,8 +59,20 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is Autumn world" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7u-yc-X2l">
+                                <rect key="frame" x="117" y="213" width="159" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="O7u-yc-X2l" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-202.5" id="YIB-TB-CtR"/>
+                            <constraint firstItem="O7u-yc-X2l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nwM-OG-FIT"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wmR-at-sWm"/>
                 </viewController>
