@@ -15,6 +15,7 @@
 		A1934AD12B064789007550E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1934ACF2B064789007550E2 /* LaunchScreen.storyboard */; };
 		A1934AD92B065C6F007550E2 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1934AD82B065C6F007550E2 /* DetailController.swift */; };
 		ABDCEA1C41F448777D84F8DC /* Pods_autumn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BCFA4442F559DDC3237626 /* Pods_autumn.framework */; };
+		FD780E682B07525700ED3503 /* image_sun.png in Resources */ = {isa = PBXBuildFile; fileRef = FD780E672B07525700ED3503 /* image_sun.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A1934AD02B064789007550E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1934AD22B064789007550E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1934AD82B065C6F007550E2 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		FD780E672B07525700ED3503 /* image_sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_sun.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		A1934AC32B064788007550E2 /* autumn */ = {
 			isa = PBXGroup;
 			children = (
+				FD780E672B07525700ED3503 /* image_sun.png */,
 				A1934AC42B064788007550E2 /* AppDelegate.swift */,
 				A1934AC62B064788007550E2 /* SceneDelegate.swift */,
 				A1934AC82B064788007550E2 /* ViewController.swift */,
@@ -154,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD780E682B07525700ED3503 /* image_sun.png in Resources */,
 				A1934AD12B064789007550E2 /* LaunchScreen.storyboard in Resources */,
 				A1934ACE2B064789007550E2 /* Assets.xcassets in Resources */,
 				A1934ACC2B064788007550E2 /* Main.storyboard in Resources */,
